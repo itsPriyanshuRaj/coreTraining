@@ -1,0 +1,16 @@
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+}
+
+.animated-box {
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    animation: bounce 1s ease infinite;
+}

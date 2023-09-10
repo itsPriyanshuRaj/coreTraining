@@ -1,0 +1,51 @@
+div{
+    position: absolute;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.cornerBox1, .cornerBox2, .cornerBox3, .cornerBox4{
+    border: 2px solid red;
+}
+
+.cornerBox1{
+    top: 0;
+}
+
+.cornerBox2{
+    right: 0px;
+}
+
+.cornerBox3{
+    left:0px;
+    bottom: 0px;
+}
+.cornerBox4{
+    right:0px;
+    bottom: 0px;
+}
+
+.centerBox1,.centerBox2,.centerBox3,.centerBox4{
+    border: 2px solid green;
+}
+
+.centerBox1{
+    top:0px;
+    left: 50%;
+}
+
+.centerBox2{
+    top: 50%;
+    left:0px;
+}
+
+.centerBox3{
+    top: 50%;
+    right: 0px;
+}
+
+.centerBox4{
+    bottom:0px;
+    left:50%
+}

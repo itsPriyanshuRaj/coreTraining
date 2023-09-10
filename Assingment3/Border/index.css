@@ -1,0 +1,25 @@
+.container{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.content{
+    background-color: red;
+    height: 200px;
+    width: 500px;
+}
+.padding{
+    border: 50px solid dodgerblue;
+}
+.border{
+    border: 50px solid orange;
+}
+.margin{
+    border: 50px solid greenyellow;
+}
+
+span{
+    color: white;
+    font-size: 50px;
+}

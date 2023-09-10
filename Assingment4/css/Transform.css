@@ -1,0 +1,13 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.box:hover {
+    transform: rotate(45deg) scale(1.5) translate(20px, 20px);
+}
